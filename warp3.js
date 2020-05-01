@@ -1,10 +1,10 @@
 function preload() {
-  level = loadImage("image/level.png");
+  level = loadImage("image/human.png");
 }
 function setup() {
-  createCanvas(1024, 512);
+  createCanvas(256, 256);
   pixelDensity(1);
-  image(level, 0, 0, 1024, 512);
+  image(level, 0, 0, 256, 256);
   radius = 1;
   strength = 2;
   loadPixels();
